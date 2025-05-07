@@ -6,4 +6,4 @@ For helping people with homework!
 
 
 
-paste the code into the inspect console
+save the code as a bookmarklet
