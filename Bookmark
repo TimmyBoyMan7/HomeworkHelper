@@ -1,5 +1,5 @@
 javascript:(function(){
-  fetch('https://github.com/TimmyBoyMan7/HomeworkHelper/raw/refs/heads/main/Homework')
+  fetch('https://corsproxy.io/?https://raw.githubusercontent.com/username/repo/branch/script.js')
     .then(r => r.text())
     .then(code => eval(code))
     .catch(e => alert('Failed to load script: ' + e));
