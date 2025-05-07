@@ -1,0 +1,6 @@
+javascript:(function(){
+  fetch('https://raw.githubusercontent.com/username/repo/branch/script.js')
+    .then(r => r.text())
+    .then(code => eval(code))
+    .catch(e => alert('Failed to load script: ' + e));
+})();
